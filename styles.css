@@ -1,0 +1,148 @@
+.container{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 1500px;
+    height: 700px;
+    margin: auto;
+}
+
+
+h1{
+    font-family: 'Exo', sans-serif;
+    color: rgb(59, 59, 59);
+    font-size: 50px;
+    padding-left: 40px;
+    padding-top: 150px;
+}
+
+h3{
+    font-family: 'Exo', sans-serif;
+    color: rgb(180, 180, 180);
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-weight: thin;
+}
+
+.contact-button{
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 20px 50px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(211, 47, 47);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Exo', sans-serif;
+    position: sticky;
+    top: 0;
+
+}
+
+.contact-button:hover{
+    background-color: #000;
+    color: white;
+}
+
+
+.image{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    border: none;
+    background-image: url("Capture.PNG");
+    background-size: cover;
+    top: 170px;
+    left: 770px;
+    border-radius: 10px;
+}
+
+.image:hover{
+    background-color: rgb(255, 255, 255);
+    opacity: .5;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  
+  #customers tr:hover {background-color: rgb(119, 119, 119);}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #a31420;
+    color: white;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #a50d0d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+  
+  .contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    h1{
+        font-size: 80px;
+        display: flex;
+    }
+
+    h3{
+        display: flex;
+        font-size: 30px;
+    }
+
+    .image{
+        display: none;
+    }
+
+  }
+  
+@media only screen and (min-width: 768px) {
+
+  } 
+
+ 
+@media only screen and (min-width: 1200px) {
+
+  }
