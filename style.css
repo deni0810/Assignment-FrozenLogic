@@ -76,17 +76,54 @@ h3{
         font-size: 30px;
     }
 
-    .image{
+    /* .image{
         display: none;
-    }
+    } */
 
   }
   
-@media only screen and (min-width: 768px) {
+  @media only screen and (max-width: 1500px) {
 
-  } 
-
- 
-@media only screen and (min-width: 1200px) {
-
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      place-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 10px;
+      width: auto;
+    }
+    
+    .image{
+      position: unset;
+      width: 600px;
+    }
+  
+    .left{
+      height: auto;
+    }
+  
+    .contact {
+      margin-bottom: 10px;
+    }
+  
+    } 
+  
+    @media only screen and (max-width: 600px) {
+  
+      h1{
+        font-size: 80px;
+        display: flex;
+    }
+    
+    h3{
+        display: flex;
+        font-size: 30px;
+    }
+    .image{
+      width: 300px;
+      height: 200px;
+    }
+   
   }

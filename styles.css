@@ -1,9 +1,14 @@
 .container{
-    position: relative;
+    position: relative; 
     background-color: rgb(255, 255, 255);
     width: 1500px;
     height: 700px;
     margin: auto;
+   
+}
+
+.left {
+  height: 100vh;
 }
 
 
@@ -25,7 +30,7 @@ h3{
 }
 
 .contact-button{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 40px;
     padding: 20px 50px;
     border-radius: 40px;
@@ -36,7 +41,8 @@ h3{
     cursor: pointer;
     font-family: 'Exo', sans-serif;
     position: sticky;
-    top: 0;
+    top: 10px;
+    /* z-index: 99; */
 
 }
 
@@ -119,22 +125,7 @@ h3{
   }
 
 
-
-@media only screen and (max-width: 600px) {
-
-  h1{
-    font-size: 80px;
-    display: flex;
-}
-
-h3{
-    display: flex;
-    font-size: 30px;
-}
-
-  }
-  
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1500px) {
 
   .container {
     display: flex;
@@ -143,16 +134,39 @@ h3{
     place-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 10px;
+    width: auto;
   }
   
   .image{
     position: unset;
+    width: 600px;
   }
 
+  .left{
+    height: auto;
+  }
+
+  .contact-button {
+    margin-bottom: 10px;
+  }
 
   } 
 
- 
-@media only screen and (max-width: 1200px) {
+  @media only screen and (max-width: 600px) {
 
+    h1{
+      font-size: 80px;
+      display: flex;
   }
+  
+  h3{
+      display: flex;
+      font-size: 30px;
+  }
+  .image{
+    width: 300px;
+    height: 200px;
+  }
+ 
+}
